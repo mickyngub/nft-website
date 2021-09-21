@@ -1,10 +1,14 @@
-import { Button, ThemeWrapper } from "retro-ui";
+import { Button, Select, ThemeWrapper } from "retro-ui";
 const Header = () => {
   return (
     <div>
       This is header
       <ThemeWrapper>
-        <Button>{"Raw!"}</Button>
+        <Select name="select">
+          <option label="<">{"back"}</option>
+          <option label="X">{"stop"}</option>
+          <option label=">">{"next"}</option>
+        </Select>
       </ThemeWrapper>
     </div>
   );
