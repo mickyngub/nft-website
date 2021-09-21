@@ -1,14 +1,10 @@
 import { Button, Select, ThemeWrapper } from "retro-ui";
+import bannerCat from "assets/banner.jpeg";
 const Header = () => {
   return (
     <div>
-      This is header
       <ThemeWrapper>
-        <Select name="select">
-          <option label="<">{"back"}</option>
-          <option label="X">{"stop"}</option>
-          <option label=">">{"next"}</option>
-        </Select>
+        <img className="w-screen" src={bannerCat} alt="bannerCat" />
       </ThemeWrapper>
     </div>
   );
