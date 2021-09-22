@@ -9,14 +9,32 @@ import catGif8 from "assets/catgif8.gif";
 import catGif9 from "assets/catgif9.gif";
 import catGif10 from "assets/catgif10.gif";
 import catGif11 from "assets/catgif11.gif";
+import FrontPageText from "PageContent/FrontPageText/FrontPageText";
 
 const Title = () => {
   return (
     <div className="h-screen w-screen">
       <div className="h-auto w-screen my-auto flex flex-col space-y-48">
-        <p className="text-8xl text-center my-6">Stray Cat NFT Collection</p>
-        <p className="text-2xl text-center my-16">by EEZEE</p>
-
+        {/* <p className="text-8xl text-center my-6">Stray Cat NFT Collection</p>
+        <p className="text-2xl text-center my-16">by EEZEE</p> */}
+        <p>
+          {/* //   "Stray Cat NFT Collection",
+            //   "Made with Love.",
+            //   "by EEZEE",
+            // ]}
+            // elementID="text"
+            // textColorArray={["tomato", "rebeccapurple", "lightblue"]}
+           */}
+          <FrontPageText
+            textArray={[
+              "Stray Cat NFT Collection",
+              "Made with Love.",
+              "by EEZEE",
+            ]}
+            elementID="text"
+            textColorArray={["tomato", "rebeccapurple", "lightblue"]}
+          />
+        </p>
         <div className="self-end flex">
           <img src={catGif1} alt="catGif1" />
           <img src={catGif2} alt="catGif2" />

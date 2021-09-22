@@ -1,6 +1,7 @@
 import discordLogo from "assets/discord8bit.png";
 import twitterLogo from "assets/twitter8bit.png";
 import instagramLogo from "assets/instagram8bit.png";
+import FrontPageText from "PageContent/FrontPageText/FrontPageText";
 const Footer = () => {
   return (
     <div className="w-screen h-64 bg-blue-400">
@@ -15,6 +16,7 @@ const Footer = () => {
           alt="twitter logo"
         />
       </div>
+      {/* <FrontPageText /> */}
     </div>
   );
 };
