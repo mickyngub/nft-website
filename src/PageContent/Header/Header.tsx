@@ -1,4 +1,4 @@
-import { Button, Select, ThemeWrapper } from "retro-ui";
+import { ThemeWrapper } from "retro-ui";
 import bannerCat from "assets/banner.jpeg";
 const Header = () => {
   return (

@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         "press-start": ['"Press Start 2P"', "cursive"],
       },
+      backgroundImage: {
+        "8bit-background": "url(./assets/8bitwallpaper.jpg)",
+      },
     },
   },
   variants: {

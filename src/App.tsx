@@ -1,5 +1,3 @@
-import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import Header from "PageContent/Header/Header";
 import Content1 from "PageContent/Content1/Content1";
@@ -9,7 +7,7 @@ import Title from "PageContent/Title/Title";
 
 function App() {
   return (
-    <div className="font-press-start flex flex-col items-center">
+    <div className="bg-8bit-background bg-fixed font-press-start flex flex-col items-center">
       <Title />
       <Header />
       <Content1 />

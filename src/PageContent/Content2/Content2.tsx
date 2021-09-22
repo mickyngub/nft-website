@@ -8,14 +8,14 @@ import coolCat from "assets/cool.gif";
 
 const Content2 = () => {
   return (
-    <div className="bg-yellow-400 w-screen h-64">
-      <img className="inline w-32 h-32" src={durianCat} alt="durianCat" />
-      <img className="inline w-32 h-32" src={pinkblackCat} alt="pinkblackCat" />
-      <img className="inline w-32 h-32" src={pinkCat} alt="pink" />
-      <img className="inline w-32 h-32" src={richCat} alt="rich" />
-      <img className="inline w-32 h-32" src={huskyCat} alt="huskyCat" />
-      <img className="inline w-32 h-32" src={zombieCat} alt="zombieCat" />
-      <img className="inline w-32 h-32" src={coolCat} alt="coolCat" />
+    <div className="w-screen h-64 flex-wrap">
+      <img className="catGif" src={durianCat} alt="durianCat" />
+      <img className="catGif" src={pinkblackCat} alt="pinkblackCat" />
+      <img className="catGif" src={pinkCat} alt="pink" />
+      <img className="catGif" src={richCat} alt="rich" />
+      <img className="catGif" src={huskyCat} alt="huskyCat" />
+      <img className="catGif" src={zombieCat} alt="zombieCat" />
+      <img className="catGif" src={coolCat} alt="coolCat" />
     </div>
   );
 };
