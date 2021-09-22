@@ -49,22 +49,28 @@ const FrontPageText = (props) => {
 
   useEffect(() => {
     consoleText(
-      // props.textArray,
-      ["Stray Cat NFT Collection", "Made with Love.", "by EEZEE"],
-      // props.elementID,
-      "text",
-      // props.textColorArray
-
-      ["tomato", "rebeccapurple", "lightblue"]
+      props.textArray,
+      // ["Stray Cat NFT Collection", "Made with Love.", "by EEZEE"],
+      props.elementID,
+      // "text",
+      props.textColorArray
+      // ["tomato", "rebeccapurple", "lightblue"]
     );
-  }, []);
+  }, [props.textArray, props.elementID, props.textColorArray]);
 
   return (
-    <div class="console-container">
-      <span id="text"></span>
-      <div class="console-underscore" id="console">
+    <div className="console-container">
+      <span className="text-7xl " id="text"></span>
+      <span
+        style={{
+          fontSize: "3rem" /* 36px */,
+          lineHeight: "1rem" /* 40px */,
+        }}
+        className="console-underscore "
+        id="console"
+      >
         &#95;
-      </div>
+      </span>
     </div>
   );
 };

@@ -14,17 +14,18 @@ import FrontPageText from "PageContent/FrontPageText/FrontPageText";
 const Title = () => {
   return (
     <div className="h-screen w-screen">
-      <div className="h-auto w-screen my-auto flex flex-col space-y-48">
+      <div className="h-screen w-screen my-auto flex flex-col justify-between">
         {/* <p className="text-8xl text-center my-6">Stray Cat NFT Collection</p>
         <p className="text-2xl text-center my-16">by EEZEE</p> */}
-        <p>
-          {/* //   "Stray Cat NFT Collection",
+        {/* //   "Stray Cat NFT Collection",
             //   "Made with Love.",
             //   "by EEZEE",
             // ]}
             // elementID="text"
             // textColorArray={["tomato", "rebeccapurple", "lightblue"]}
            */}
+
+        <div className="h-56 mt-64 mx-32">
           <FrontPageText
             textArray={[
               "Stray Cat NFT Collection",
@@ -32,9 +33,22 @@ const Title = () => {
               "by EEZEE",
             ]}
             elementID="text"
-            textColorArray={["tomato", "rebeccapurple", "lightblue"]}
+            textColorArray={[
+              "aqua",
+              "rebeccapurple",
+              "deepPink",
+              "Pink",
+              "Gold",
+              "GreenYellow",
+              "Indigo",
+              "PaleGreen",
+              "Yellow",
+              "Wheat",
+              "Teal",
+              "Violet",
+            ]}
           />
-        </p>
+        </div>
         <div className="self-end flex">
           <img src={catGif1} alt="catGif1" />
           <img src={catGif2} alt="catGif2" />
