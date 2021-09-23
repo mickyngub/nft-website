@@ -57,28 +57,6 @@ const Content = () => {
         src={upcomingCatGif}
         alt="upcomingCatGit"
       />
-      <p className="text-7xl text-center h-32 mt-16 text-blue-900">
-        Our Collection
-        <span className="text-7xl " id="!"></span>
-        <TextAnimation
-          textArray={["!", "!!", "!!!"]}
-          elementID="!"
-          textColorArray={[
-            "aqua",
-            "rebeccapurple",
-            "deepPink",
-            "Pink",
-            "Gold",
-            "GreenYellow",
-            "Indigo",
-            "PaleGreen",
-            "Yellow",
-            "Wheat",
-            "Teal",
-            "Violet",
-          ]}
-        />
-      </p>
     </div>
   );
 };
