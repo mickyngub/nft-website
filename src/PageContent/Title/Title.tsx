@@ -15,22 +15,14 @@ const Title = () => {
   return (
     <div className="h-screen w-screen">
       <div className="h-screen w-screen my-auto flex flex-col justify-between">
-        {/* <p className="text-8xl text-center my-6">Stray Cat NFT Collection</p>
-        <p className="text-2xl text-center my-16">by EEZEE</p> */}
-        {/* //   "Stray Cat NFT Collection",
-            //   "Made with Love.",
-            //   "by EEZEE",
-            // ]}
-            // elementID="text"
-            // textColorArray={["tomato", "rebeccapurple", "lightblue"]}
-           */}
-
         <div className="h-56 mt-64 mx-32">
           <FrontPageText
             textArray={[
               "Stray Cat NFT Collection",
               "Made with Love.",
               "by EEZEE",
+              "Stray Cat Website",
+              "by mickyngub",
             ]}
             elementID="text"
             textColorArray={[
@@ -38,9 +30,9 @@ const Title = () => {
               "rebeccapurple",
               "deepPink",
               "Pink",
-              "Gold",
-              "GreenYellow",
               "Indigo",
+              "GreenYellow",
+              "Gold",
               "PaleGreen",
               "Yellow",
               "Wheat",
@@ -76,6 +68,7 @@ const Title = () => {
           <img src={catGif11} alt="catGif11" />
         </div> */}
       </div>
+      <div className="h-auto border-b-48 border-black"></div>
     </div>
   );
 };

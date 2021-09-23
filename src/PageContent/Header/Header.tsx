@@ -1,10 +1,30 @@
 import { Box, ThemeWrapper } from "retro-ui";
 import bannerCat from "assets/banner.jpeg";
+import FrontPageText from "PageContent/FrontPageText/FrontPageText";
 const Header = () => {
   return (
     <div>
-      <p className="text-7xl text-center h-32 mt-16 text-blue-900">
-        What is Stray Cat NFT Collection?
+      <p className="text-6xl text-center h-32 mt-24 text-blue-900">
+        What is Stray Cat NFT Collection
+        <span className="text-7xl " id="questionMark"></span>
+        <FrontPageText
+          textArray={["?"]}
+          elementID="questionMark"
+          textColorArray={[
+            "aqua",
+            "rebeccapurple",
+            "deepPink",
+            "Pink",
+            "Gold",
+            "GreenYellow",
+            "Indigo",
+            "PaleGreen",
+            "Yellow",
+            "Wheat",
+            "Teal",
+            "Violet",
+          ]}
+        />
       </p>
       <div className="flex justify-center my-16">
         <ThemeWrapper>
@@ -15,11 +35,12 @@ const Header = () => {
             cannot be duplicated or destroyed. Each cat is divided into levels
             as follows.
             <br />
-            RARITY : ★★★ (47 / 168) ★★★★ (8/ 28) ★★★★★ (1/ 7) ★★★★★★ (0/2) Stray
-            cats have the ability to attract allies. People with stray cats in
-            the collection Chance to get a stray cat (special) Owners of cats in
-            pairs (male and female) Chance to get a stray kitten * Random
-            giveaway once a month until the end of the collection.
+            RARITY : ⭐️⭐️⭐️ (47 / 168) ⭐️⭐️⭐️⭐️ (8/ 28) ⭐️⭐️⭐️⭐️⭐️
+            (1/ 7) ⭐️⭐️⭐️⭐️⭐️⭐️ (0/2) Stray cats have the ability to
+            attract allies. People with stray cats in the collection Chance to
+            get a stray cat (special) Owners of cats in pairs (male and female)
+            Chance to get a stray kitten * Random giveaway once a month until
+            the end of the collection.
           </Box>
         </ThemeWrapper>
       </div>
