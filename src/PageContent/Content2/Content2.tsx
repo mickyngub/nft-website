@@ -8,7 +8,7 @@ import coolCat from "assets/cool.gif";
 
 const Content2 = () => {
   return (
-    <div className="w-screen h-64 flex-wrap">
+    <div className="w-screen h-auto flex flex-wrap content-around justify-evenly">
       <img className="catGif" src={durianCat} alt="durianCat" />
       <img className="catGif" src={pinkblackCat} alt="pinkblackCat" />
       <img className="catGif" src={pinkCat} alt="pink" />
@@ -16,6 +16,43 @@ const Content2 = () => {
       <img className="catGif" src={huskyCat} alt="huskyCat" />
       <img className="catGif" src={zombieCat} alt="zombieCat" />
       <img className="catGif" src={coolCat} alt="coolCat" />
+      <img className="catGif" src={durianCat} alt="durianCat" />
+      <img className="catGif" src={pinkblackCat} alt="pinkblackCat" />
+      <img className="catGif" src={pinkCat} alt="pink" />
+      <img className="catGif" src={richCat} alt="rich" />
+      <img className="catGif" src={huskyCat} alt="huskyCat" />
+      <img className="catGif" src={zombieCat} alt="zombieCat" />
+      <img className="catGif" src={coolCat} alt="coolCat" />
+      <img className="catGif" src={durianCat} alt="durianCat" />
+      <img className="catGif" src={pinkblackCat} alt="pinkblackCat" />
+      <img className="catGif" src={pinkCat} alt="pink" />
+      <img className="catGif" src={richCat} alt="rich" />
+      <img className="catGif" src={huskyCat} alt="huskyCat" />
+      <img className="catGif" src={zombieCat} alt="zombieCat" />
+      <img className="catGif" src={coolCat} alt="coolCat" />
+      <img className="catGif" src={durianCat} alt="durianCat" />
+      <img className="catGif" src={durianCat} alt="durianCat" />
+      <img className="catGif" src={pinkblackCat} alt="pinkblackCat" />
+      <img className="catGif" src={pinkCat} alt="pink" />
+      <img className="catGif" src={richCat} alt="rich" />
+      <img className="catGif" src={huskyCat} alt="huskyCat" />
+      <img className="catGif" src={zombieCat} alt="zombieCat" />
+      <img className="catGif" src={coolCat} alt="coolCat" />
+      <img className="catGif" src={durianCat} alt="durianCat" />
+      <img className="catGif" src={pinkblackCat} alt="pinkblackCat" />
+      <img className="catGif" src={pinkCat} alt="pink" />
+      <img className="catGif" src={richCat} alt="rich" />
+      <img className="catGif" src={huskyCat} alt="huskyCat" />
+      <img className="catGif" src={zombieCat} alt="zombieCat" />
+      <img className="catGif" src={coolCat} alt="coolCat" />
+      <img className="catGif" src={durianCat} alt="durianCat" />
+      <img className="catGif" src={pinkblackCat} alt="pinkblackCat" />
+      <img className="catGif" src={pinkCat} alt="pink" />
+      <img className="catGif" src={richCat} alt="rich" />
+      <img className="catGif" src={huskyCat} alt="huskyCat" />
+      <img className="catGif" src={zombieCat} alt="zombieCat" />
+      <img className="catGif" src={coolCat} alt="coolCat" />
+      <img className="catGif" src={durianCat} alt="durianCat" />
     </div>
   );
 };
