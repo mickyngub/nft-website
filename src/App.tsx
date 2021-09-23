@@ -1,4 +1,3 @@
-import "./App.css";
 import Header from "PageContent/Header/Header";
 import Content1 from "PageContent/Content1/Content1";
 import Content2 from "PageContent/Content2/Content2";

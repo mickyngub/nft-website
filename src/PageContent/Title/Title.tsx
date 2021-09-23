@@ -42,21 +42,21 @@ const Title = () => {
             ]}
           />
         </div>
-        <div className="self-end flex">
-          <img src={catGif1} alt="catGif1" />
-          <img src={catGif2} alt="catGif2" />
-          <img src={catGif3} alt="catGif3" />
-          <img src={catGif4} alt="catGif4" />
-          <img src={catGif5} alt="catGif5" />
-          <img src={catGif6} alt="catGif6" />
-          <img src={catGif7} alt="catGif7" />
-          <img src={catGif8} alt="catGif8" />
-          <img src={catGif9} alt="catGif9" />
-          <img src={catGif10} alt="catGif11" />
-          <img src={catGif11} alt="catGif11" />
+        <div className="self-end flex w-screen">
+          <img className="catGifTitle" src={catGif1} alt="catGif1" />
+          <img className="catGifTitle" src={catGif2} alt="catGif2" />
+          <img className="catGifTitle" src={catGif3} alt="catGif3" />
+          <img className="catGifTitle" src={catGif4} alt="catGif4" />
+          <img className="catGifTitle" src={catGif5} alt="catGif5" />
+          <img className="catGifTitle" src={catGif6} alt="catGif6" />
+          <img className="catGifTitle" src={catGif7} alt="catGif7" />
+          <img className="catGifTitle" src={catGif8} alt="catGif8" />
+          <img className="catGifTitle" src={catGif9} alt="catGif9" />
+          <img className="catGifTitle" src={catGif10} alt="catGif11" />
+          <img className="catGifTitle" src={catGif11} alt="catGif11" />
         </div>
       </div>
-      <div className="h-auto border-b-48 border-black"></div>
+      <div className="border-b-48 w-auto mr-2.5 border-black"></div>
     </div>
   );
 };

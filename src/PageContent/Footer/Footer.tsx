@@ -39,9 +39,21 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img className="w-20 h-20" src={discordLogo} alt="discord logo" />
-          <img className="w-20 h-20" src={instagramLogo} alt="instagram logo" />
-          <img className="w-24 h-20" src={twitterLogo} alt="twitter logo" />
+          <img
+            className="w-20 h-20 appLogo"
+            src={discordLogo}
+            alt="discord logo"
+          />
+          <img
+            className="w-20 h-20 appLogo"
+            src={instagramLogo}
+            alt="instagram logo"
+          />
+          <img
+            className="w-24 h-20 appLogo"
+            src={twitterLogo}
+            alt="twitter logo"
+          />
         </a>
       </div>
       {/* <TextAnimation /> */}
