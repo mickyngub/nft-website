@@ -9,14 +9,14 @@ import catGif8 from "assets/catgif8.gif";
 import catGif9 from "assets/catgif9.gif";
 import catGif10 from "assets/catgif10.gif";
 import catGif11 from "assets/catgif11.gif";
-import FrontPageText from "PageContent/FrontPageText/FrontPageText";
+import TextAnimation from "PageContent/TextAnimation/TextAnimation";
 
 const Title = () => {
   return (
     <div className="h-screen w-screen">
       <div className="h-screen w-screen my-auto flex flex-col justify-between">
         <div className="h-56 mt-64 mx-32">
-          <FrontPageText
+          <TextAnimation
             textArray={[
               "Stray Cat NFT Collection",
               "Made with Love.",

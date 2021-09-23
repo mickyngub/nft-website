@@ -1,6 +1,6 @@
 import roadmapCat from "assets/roadmap.jpeg";
 import upcomingCatGif from "assets/upcomingCatGif.gif";
-import FrontPageText from "PageContent/FrontPageText/FrontPageText";
+import TextAnimation from "PageContent/TextAnimation/TextAnimation";
 
 const Content = () => {
   return (
@@ -8,7 +8,7 @@ const Content = () => {
       <p className="text-7xl text-center h-32 mt-16 text-blue-900">
         Roadmap
         <span className="text-7xl " id="dot1"></span>
-        <FrontPageText
+        <TextAnimation
           textArray={["...", "...", "..."]}
           elementID="dot1"
           textColorArray={[
@@ -32,7 +32,7 @@ const Content = () => {
       <p className="text-7xl text-center h-32 mt-16 text-blue-900">
         Upcoming
         <span className="text-7xl " id="dot2"></span>
-        <FrontPageText
+        <TextAnimation
           textArray={["...", "...", "..."]}
           elementID="dot2"
           textColorArray={[
@@ -60,7 +60,7 @@ const Content = () => {
       <p className="text-7xl text-center h-32 mt-16 text-blue-900">
         Our Collection
         <span className="text-7xl " id="!"></span>
-        <FrontPageText
+        <TextAnimation
           textArray={["!", "!!", "!!!"]}
           elementID="!"
           textColorArray={[

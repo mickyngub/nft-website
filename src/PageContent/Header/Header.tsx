@@ -1,13 +1,13 @@
 import { Box, ThemeWrapper } from "retro-ui";
 import bannerCat from "assets/banner.jpeg";
-import FrontPageText from "PageContent/FrontPageText/FrontPageText";
+import TextAnimation from "PageContent/TextAnimation/TextAnimation";
 const Header = () => {
   return (
     <div>
       <p className="text-6xl text-center h-32 mt-24 text-blue-900">
         What is Stray Cat NFT Collection
         <span className="text-7xl " id="questionMark"></span>
-        <FrontPageText
+        <TextAnimation
           textArray={["?"]}
           elementID="questionMark"
           textColorArray={[

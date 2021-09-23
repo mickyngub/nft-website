@@ -1,8 +1,7 @@
 import discordLogo from "assets/discord8bit.png";
 import twitterLogo from "assets/twitter8bit.png";
 import instagramLogo from "assets/instagram8bit.png";
-import FrontPageText from "PageContent/FrontPageText/FrontPageText";
-// import FrontPageText from "PageContent/FrontPageText/FrontPageText";
+import TextAnimation from "PageContent/TextAnimation/TextAnimation";
 const Footer = () => {
   return (
     <div className="w-screen h-80 flex flex-col justify-center">
@@ -11,7 +10,7 @@ const Footer = () => {
           Contact <span className="text-blue-600">mickyngub</span> for website
           at
           <span className="text-4xl " id="dotFooter"></span>
-          <FrontPageText
+          <TextAnimation
             textArray={["..."]}
             elementID="dotFooter"
             showUnderScore={false}
@@ -45,7 +44,7 @@ const Footer = () => {
           <img className="w-24 h-20" src={twitterLogo} alt="twitter logo" />
         </a>
       </div>
-      {/* <FrontPageText /> */}
+      {/* <TextAnimation /> */}
     </div>
   );
 };
