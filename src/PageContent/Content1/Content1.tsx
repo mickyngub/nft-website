@@ -79,11 +79,6 @@ const Content = () => {
           ]}
         />
       </p>
-      {/* <img
-        className="w-screen h-auto mx-auto"
-        src={upcomingCat}
-        alt="upcomingCat"
-      /> */}
     </div>
   );
 };

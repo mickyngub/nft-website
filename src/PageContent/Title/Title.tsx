@@ -24,6 +24,7 @@ const Title = () => {
               "Stray Cat Website",
               "by mickyngub",
             ]}
+            showUnderScore
             elementID="text"
             textColorArray={[
               "aqua",
@@ -54,19 +55,6 @@ const Title = () => {
           <img src={catGif10} alt="catGif11" />
           <img src={catGif11} alt="catGif11" />
         </div>
-        {/* <div className="flex flex-row-reverse">
-          <img src={catGif1} alt="catGif1" />
-          <img src={catGif2} alt="catGif2" />
-          <img src={catGif3} alt="catGif3" />
-          <img src={catGif4} alt="catGif4" />
-          <img src={catGif5} alt="catGif5" />
-          <img src={catGif6} alt="catGif6" />
-          <img src={catGif7} alt="catGif7" />
-          <img src={catGif8} alt="catGif8" />
-          <img src={catGif9} alt="catGif9" />
-          <img src={catGif10} alt="catGif11" />
-          <img src={catGif11} alt="catGif11" />
-        </div> */}
       </div>
       <div className="h-auto border-b-48 border-black"></div>
     </div>

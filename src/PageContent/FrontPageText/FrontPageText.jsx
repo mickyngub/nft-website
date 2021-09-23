@@ -65,6 +65,7 @@ const FrontPageText = (props) => {
         style={{
           fontSize: "3rem" /* 36px */,
           lineHeight: "1rem" /* 40px */,
+          display: !props.showUnderScore ? "none" : "",
         }}
         className="console-underscore "
         id="console"
