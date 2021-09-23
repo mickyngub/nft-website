@@ -1,5 +1,6 @@
 {
-  "name": "nft-website",
+  "homepage": "https://mickyngub.github.io/nft-website-stray-cat/",
+  "name": "nft-website-stray-cat",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,6 +21,8 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
@@ -45,6 +48,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^9",
+    "gh-pages": "^3.2.3",
     "postcss": "^7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   }
