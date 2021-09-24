@@ -4,12 +4,12 @@ import instagramLogo from "assets/instagram8bit.png";
 import TextAnimation from "PageContent/TextAnimation/TextAnimation";
 const Footer = () => {
   return (
-    <div className="w-screen h-80 flex flex-col justify-center">
-      <div className="h-32 w-auto">
-        <p className="text-4xl text-center text-blue-900">
+    <div className="w-screen h-96 flex flex-col justify-center">
+      <div className="h-32 w-auto lg:mb-32">
+        <p className="text-xl lg:text-7xl text-center text-blue-900">
           Contact <span className="text-blue-600">mickyngub</span> for website
           at
-          <span className="text-4xl " id="dotFooter"></span>
+          <span className="text-xl lg:text-7xl" id="dotFooter"></span>
           <TextAnimation
             textArray={["..."]}
             elementID="dotFooter"
@@ -40,17 +40,17 @@ const Footer = () => {
           rel="noopener noreferrer"
         >
           <img
-            className="w-20 h-20 appLogo"
+            className="w-16 h-16 lg:w-20 lg:h-20 appLogo"
             src={discordLogo}
             alt="discord logo"
           />
           <img
-            className="w-20 h-20 appLogo"
+            className="w-16 h-16 lg:w-20 lg:h-20 appLogo"
             src={instagramLogo}
             alt="instagram logo"
           />
           <img
-            className="w-24 h-20 appLogo"
+            className="w-16 h-16 lg:w-24  lg:h-20 appLogo"
             src={twitterLogo}
             alt="twitter logo"
           />

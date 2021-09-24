@@ -4,9 +4,9 @@ import TextAnimation from "PageContent/TextAnimation/TextAnimation";
 const Header = () => {
   return (
     <div>
-      <p className="text-6xl text-center h-32 mt-24 text-blue-900">
+      <p className="text-2xl lg:text-6xl text-center h-32 mt-12 lg:mt-24 text-blue-900">
         What is the Stray Cat NFT Collection
-        <span className="text-7xl " id="questionMark"></span>
+        <span className="text-2xl lg:text-7xl" id="questionMark"></span>
         <TextAnimation
           textArray={["?"]}
           elementID="questionMark"
@@ -26,9 +26,9 @@ const Header = () => {
           ]}
         />
       </p>
-      <div className="flex justify-center my-16">
+      <div className="flex justify-center mt-0 mb-8 lg:my-16 overflow-y-scroll">
         <ThemeWrapper>
-          <Box className="w-2/3 h-64" type="warning">
+          <Box className="w-2/3 h-64 " type="warning">
             <span className="text-yellow-800">
               <b>Stray Cat Collection</b> is a digital art collection. It is an
               NFT project on Etheruem that contains 205 unique NFT photos of

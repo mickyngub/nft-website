@@ -9,6 +9,9 @@ module.exports = {
       backgroundImage: {
         "8bit-background": "url(./assets/8bitwallpaper.jpg)",
       },
+      height: {
+        "85-vh": "85vh",
+      },
       borderWidth: {
         16: "16px",
         32: "32px",

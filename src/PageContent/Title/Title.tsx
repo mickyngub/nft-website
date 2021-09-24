@@ -13,9 +13,9 @@ import TextAnimation from "PageContent/TextAnimation/TextAnimation";
 
 const Title = () => {
   return (
-    <div className="h-screen w-screen">
-      <div className="h-screen w-screen my-auto flex flex-col justify-between">
-        <div className="h-56 mt-64 mx-32">
+    <div className="h-5/6 md:h-screen w-screen md:mb-0">
+      <div className="h-85-vh md:h-screen w-screen my-auto flex flex-col justify-between">
+        <div className="h-56 mt-48 mx-6 lg:mt-64 lg:mx-32">
           <TextAnimation
             textArray={[
               "Stray Cat NFT Collection",
@@ -42,7 +42,7 @@ const Title = () => {
             ]}
           />
         </div>
-        <div className="self-end flex w-screen">
+        <div className="self-end md:mb-0 flex w-screen">
           <img className="catGifTitle" src={catGif1} alt="catGif1" />
           <img className="catGifTitle" src={catGif2} alt="catGif2" />
           <img className="catGifTitle" src={catGif3} alt="catGif3" />
@@ -54,9 +54,16 @@ const Title = () => {
           <img className="catGifTitle" src={catGif9} alt="catGif9" />
           <img className="catGifTitle" src={catGif10} alt="catGif11" />
           <img className="catGifTitle" src={catGif11} alt="catGif11" />
+          <img className="catGifTitle" src={catGif1} alt="catGif1" />
+          <img className="catGifTitle" src={catGif2} alt="catGif2" />
+          <img className="catGifTitle" src={catGif3} alt="catGif3" />
+          <img className="catGifTitle" src={catGif4} alt="catGif4" />
+          <img className="catGifTitle" src={catGif5} alt="catGif5" />
+          <img className="catGifTitle" src={catGif6} alt="catGif6" />
+          <img className="catGifTitle" src={catGif7} alt="catGif7" />
         </div>
       </div>
-      <div className="border-b-48 w-auto mr-2.5 border-black"></div>
+      <div className="border-b-48 w-auto lg:mr-2.5 border-black"></div>
     </div>
   );
 };

@@ -5,9 +5,9 @@ import TextAnimation from "PageContent/TextAnimation/TextAnimation";
 const Content = () => {
   return (
     <div>
-      <p className="text-7xl text-center h-32 mt-16 text-blue-900">
+      <p className="text-2xl lg:text-7xl text-center h-24 lg:h-32 mt-14 text-blue-900">
         Roadmap
-        <span className="text-7xl " id="dot1"></span>
+        <span className="text-2xl lg:text-7xl" id="dot1"></span>
         <TextAnimation
           textArray={["...", "...", "..."]}
           elementID="dot1"
@@ -29,9 +29,9 @@ const Content = () => {
       </p>
 
       <img className="w-screen h-auto" src={roadmapCat} alt="roadmapCat" />
-      <p className="text-7xl text-center h-32 mt-16 text-blue-900">
+      <p className="text-2xl lg:text-7xl text-center h-24 lg:h-32 mt-16 text-blue-900">
         Upcoming
-        <span className="text-7xl " id="dot2"></span>
+        <span className="text-2xl lg:text-7xl" id="dot2"></span>
         <TextAnimation
           textArray={["...", "...", "..."]}
           elementID="dot2"

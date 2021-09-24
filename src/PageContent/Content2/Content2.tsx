@@ -10,9 +10,9 @@ import TextAnimation from "PageContent/TextAnimation/TextAnimation";
 const Content2 = () => {
   return (
     <>
-      <p className="text-7xl text-center h-32 mt-16 text-blue-900">
+      <p className="text-2xl lg:text-7xl text-center h-24 lg:h-32 mt-16 text-blue-900">
         Our Collection
-        <span className="text-7xl " id="!"></span>
+        <span className="text-2xl lg:text-7xl" id="!"></span>
         <TextAnimation
           textArray={["!", "!!", "!!!"]}
           elementID="!"

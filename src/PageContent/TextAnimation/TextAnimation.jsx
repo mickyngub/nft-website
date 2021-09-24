@@ -60,17 +60,17 @@ const FrontPageText = (props) => {
 
   return (
     <div className="console-container">
-      <span className="text-7xl " id="text"></span>
+      <span className="text-3xl lg:text-7xl" id="text"></span>
       <span
         style={{
-          fontSize: "3rem" /* 36px */,
-          lineHeight: "1rem" /* 40px */,
+          // fontSize: "3rem" /* 36px */,
+          // lineHeight: "1rem" /* 40px */,
           display: !props.showUnderScore ? "none" : "",
         }}
-        className="console-underscore "
+        className="console-underscore text-3xl"
         id="console"
       >
-        &#95;
+        <p className="text-xl lg:text-3xl inline">&#95;</p>
       </span>
     </div>
   );

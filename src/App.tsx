@@ -6,7 +6,7 @@ import Title from "PageContent/Title/Title";
 
 function App() {
   return (
-    <div className="bg-8bit-background bg-fixed font-press-start flex flex-col items-center">
+    <div className="bg-8bit-background bg-fixed font-press-start flex flex-col items-center overflow-hidden">
       <Title />
       <Header />
       <Content1 />
