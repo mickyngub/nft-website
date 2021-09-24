@@ -48,7 +48,7 @@ const Content2 = () => {
         Our Collection
         <span className="text-2xl lg:text-6xl" id="!"></span>
         <TextAnimation
-          textArray={["!", "!!", "!!!"]}
+          textArray={["!"]}
           elementID="!"
           textColorArray={[
             "aqua",
