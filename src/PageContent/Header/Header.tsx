@@ -4,7 +4,7 @@ import TextAnimation from "PageContent/TextAnimation/TextAnimation";
 const Header = () => {
   return (
     <div>
-      <p className="text-2xl lg:text-6xl text-center h-32 mt-12 lg:mt-24 text-blue-900">
+      <p className="text-2xl lg:text-5xl text-center h-24 lg:h-32 mt-12 md:mt-24 lg:mt-24 text-blue-900">
         What is the Stray Cat NFT Collection
         <span className="text-2xl lg:text-7xl" id="questionMark"></span>
         <TextAnimation

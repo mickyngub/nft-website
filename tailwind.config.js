@@ -15,11 +15,17 @@ module.exports = {
       },
       width: {
         22: "5.5rem",
+        "24-%": "24%",
+        "19-%": "19%",
+        "12-%": "12%",
       },
       borderWidth: {
         16: "16px",
         32: "32px",
         48: "48px",
+      },
+      fontSize: {
+        "5.5xl": ["3.25rem", { lineHeight: "1" }],
       },
     },
   },

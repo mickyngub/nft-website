@@ -63,7 +63,7 @@ const Title = () => {
           <img className="catGifTitle" src={catGif7} alt="catGif7" />
         </div>
       </div>
-      <div className="border-b-48 w-auto lg:mr-2.5 border-black"></div>
+      <div className="border-b-48 w-screen border-black"></div>
     </div>
   );
 };

@@ -7,16 +7,12 @@ import zombieCat from "assets/zombie.gif";
 import coolCat from "assets/cool.gif";
 import cat001 from "assets/cat001.gif";
 import cat002 from "assets/cat002.gif";
-import cat003 from "assets/cat003.gif";
 import cat008 from "assets/cat008.gif";
 import cat009 from "assets/cat009.gif";
-import cat010 from "assets/cat010.gif";
 import cat011 from "assets/cat011.gif";
 import cat013 from "assets/cat013.gif";
-import cat014 from "assets/cat014.gif";
 import cat019 from "assets/cat019.gif";
 import cat020 from "assets/cat020.gif";
-import cat021 from "assets/cat021.gif";
 import cat022 from "assets/cat022.gif";
 import cat025 from "assets/cat025.gif";
 import cat026 from "assets/cat026.gif";
@@ -48,9 +44,9 @@ import TextAnimation from "PageContent/TextAnimation/TextAnimation";
 const Content2 = () => {
   return (
     <>
-      <p className="text-2xl lg:text-7xl text-center h-24 lg:h-32 mt-16 text-blue-900">
+      <p className="text-2xl lg:text-6xl text-center h-24 lg:h-32 mt-16 text-blue-900">
         Our Collection
-        <span className="text-2xl lg:text-7xl" id="!"></span>
+        <span className="text-2xl lg:text-6xl" id="!"></span>
         <TextAnimation
           textArray={["!", "!!", "!!!"]}
           elementID="!"
@@ -84,15 +80,11 @@ const Content2 = () => {
           <img className="catGif" src={zombieCat} alt="zombieCat" />
           <img className="catGif" src={coolCat} alt="coolCat" />
           <img className="catGif" src={cat001} alt="cat001" />
-          <img className="catGif" src={cat003} alt="cat003" />
           <img className="catGif" src={cat008} alt="cat008" />
           <img className="catGif" src={cat009} alt="cat009" />
-          <img className="catGif" src={cat010} alt="cat010" />
           <img className="catGif" src={cat011} alt="cat011" />
           <img className="catGif" src={cat013} alt="cat013" />
-          <img className="catGif" src={cat014} alt="cat014" />
           <img className="catGif" src={cat019} alt="cat019" />
-          <img className="catGif" src={cat021} alt="cat021" />
           <img className="catGif" src={cat022} alt="cat022" />
           <img className="catGif" src={cat025} alt="cat025" />
           <img className="catGif" src={cat026} alt="cat026" />

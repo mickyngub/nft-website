@@ -6,10 +6,10 @@ const Footer = () => {
   return (
     <div className="w-screen h-96 flex flex-col justify-center">
       <div className="h-32 w-auto lg:mb-32">
-        <p className="text-xl lg:text-7xl text-center text-blue-900">
+        <p className="text-xl lg:text-5.5xl text-center text-blue-900">
           Contact <span className="text-blue-600">mickyngub</span> for website
           at
-          <span className="text-xl lg:text-7xl" id="dotFooter"></span>
+          <span className="text-xl lg:text-5xl" id="dotFooter"></span>
           <TextAnimation
             textArray={["..."]}
             elementID="dotFooter"
@@ -34,7 +34,7 @@ const Footer = () => {
 
       <div>
         <a
-          className="flex w-80 h-auto justify-around items-center -mt-10 mx-auto"
+          className="flex w-80 h-auto justify-around items-center -mt-10 lg:-mt-24 mx-auto"
           href="https://twitter.com/mickyngub"
           target="_blank"
           rel="noopener noreferrer"
