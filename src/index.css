@@ -6,7 +6,7 @@
   @apply hover:opacity-80 hover:-translate-y-full transform transition duration-1000;
 }
 .catGif {
-  @apply inline w-32 h-32 border-dashed border-4 border-red-500 hover:opacity-80 hover:scale-110 transform transition duration-500;
+  @apply inline w-22  h-22 lg:w-32 lg:h-32 my-0.5 lg:m-0 border-dashed border-4 border-red-500 hover:opacity-80 hover:scale-110 transform transition duration-500;
 }
 
 .appLogo {

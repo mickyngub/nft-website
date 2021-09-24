@@ -11,6 +11,10 @@ module.exports = {
       },
       height: {
         "85-vh": "85vh",
+        22: "5.5rem",
+      },
+      width: {
+        22: "5.5rem",
       },
       borderWidth: {
         16: "16px",
